@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        #container{
+        width: 95%;
+        margin:auto;
+        padding:10px;
+        background-color: blueviolet;
+        color: #e2f1e7;
+        border: solid 1pt black;
+        }
+        form{
+            padding:10px;
+            background-color: #629584;
+        }
+        label{
+            color: #E2f1e7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 10px;
+            }
+            input[type=checkbox]{
+                width:30px;
+            }
+            input[type=sumit],input[type=reset]{
+                margin:10px;
+                background-color: #da8359;
+                color:#030303;
+            }
+            input:focus{
+                background-color: #fcfaee;
+            }
+            select{
+                border-color: #243642;
+            }
+            select{
+                border-color: #243642;
+                background-color: #e2f1e7;
+            }
+            input[type=date]{
+                width:30px;
+            }
+             </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Registration From</h1>
+        <form name="registration" action="#" method="get">
+            <table>
+                <tr>
+                    <td><label for="usn">USN</label></td>
+                    <td><input id="usn" type="text"/></td>
+                </tr>  
+                <tr>
+                    <td><label for="uname">User Name</label></td>
+                    <td><input id="uname" name="username" type="text"/></td>
+                 </tr>
+                 <tr>
+                    <td><label for="pswd">Password</label></td>
+                    <td><input id="pswd" name="pswd" type="hidden"/></td>
+                </tr>
+                 <tr>
+                    <td><label for="city">Select city</label></td>
+                    <td><select id="city" name="city">
+                        <optgroup label="Karnataka">
+                            <option selected>Bengaluru</option>
+                            <option>Bellari</option>
+                            <option>Hassan</option>
+                            <option>Raichur</option>
+                            <option>Hubballi</option>
+                        </optgroup>
+                        <optgroup label="Tamil Nadu"
+                        <option>Chennai</option>
+                        <option>Trichy</option>
+                        <option>Madhurai</option>
+                        <option>vellore</option>
+                        <option>Salem</option>
+                    </optgroup>
+                    </select>
+                </td>
+                 </tr> 
+                 <tr>
+                    <td><label for="plang">Select programming language you know</label></td>
+                 <td>
+                    <input name="plang" type="checkbox" value="python"/>python<br/>
+                    <input name="plang" type="checkbox" value="c"/>C<br/>
+                    <input name="plang" type="checkbox" value="java"/>java<br/>
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="mypic"></label>Upload a Photo</label>/<td>
+                    <td><input id="mypic" name="mypic" type=file /></td>
+                </tr>
+                <tr>
+                    <td><label for="pskill">Rate your programing skills in web technology</label></td>
+                    <td><input id ="pskill" name="pskill" type="range" min="1" max="10" step="1"/></td>
+
+                </tr>
+                <td><label for="favcolor">chose your fav color</label></td>
+                <td><input id="fcolor" name="fcolor" type="color" min = "1" max="10" step="1" /></td>
+            </tr>
+            <tr>
+                <td colspan = "2"><input name="submit" type= "submit"/>
+                <input type = "reset"/></td>
+            
+            </tr>
+                </table>
+                </form>
+                </div>
+            </div>
+            
+        </div>
+        </body>
+        </html>
+
+                </table>
+
+          
+          
+                </table>
+    </div>
+    
+</body>
+</html>
